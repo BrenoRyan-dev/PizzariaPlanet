@@ -1,0 +1,85 @@
+
+@media (max-width: 561px) {
+
+    /* HOME */
+    .hero {
+        width: 100%;
+        min-height: 75vh;
+        padding: 6rem 1rem;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* Título da Home */
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    /* Texto da Home */
+    .hero p {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    /* Botão */
+    .cta-button {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+    }
+
+    /* MENU */
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav li {
+        margin: 0;
+    }
+
+    /* Títulos das seções */
+    h2 {
+        font-size: 2rem;
+    }
+
+    /* CARDS */
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .menu-list > li {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+        margin: 0;
+    }
+
+    /* Imagem dos cards */
+    .menu-list img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* SOBRE NÓS */
+    #abaout {
+        padding: 3rem 1rem;
+    }
+
+    #abaout p {
+        font-size: 1rem;
+    }
+
+    /* CONTATO */
+    address > * {
+        display: block;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+}
